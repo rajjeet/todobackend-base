@@ -1,5 +1,7 @@
 FROM ubuntu:trusty
 
+LABEL application=todobackend
+
 # Prevent dpkg errors
 ENV TERM=xterm-256color
 
